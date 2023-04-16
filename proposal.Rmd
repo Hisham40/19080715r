@@ -1,0 +1,51 @@
+---
+title: "The relaitonship  between crime and gender and martiul statutes"
+author: 
+  - SABER, Hisham[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 19080715, [19080715r](https://github.com/Hisham40/19080715r.git)
+
+
+# Introduction
+Gender, crime, and victimization are complex and interconnected issues that have significant implications for individuals and society as a whole. Despite extensive research in the field of criminology, traditional theories have failed to fully account for the gendered nature of crime and the ways in which gender shapes the experiences of offenders and victims. As a result, there is a growing need for theoretical frameworks and policies that incorporate a gendered and intersectional perspective to better understand and address these issues.
+
+## Literature Review
+The article "Gender and Crime: Toward a Gendered Theory of Female Offending" by Meda Chesney-Lind highlights the limitations of traditional criminological theories in explaining female offending and proposes a new theoretical framework that incorporates gender and intersectionality.[@chan2002risk] Similarly, Pat Carlen's book "Risk, Crime and Gender" examines the relationship between gender, crime, and risk, emphasizing the ways in which gender norms and expectations influence criminal behavior and victimization[@steffensmeier1996gender].
+
+Education is also a key factor in reducing crime rates, as Lance Lochner and Enrico Moretti argue in their article "Education and Crime." By exploring the ways in which education can reduce crime through increased job opportunities, higher wages, and improved socialization and decision-making skills, the authors highlight the importance of investing in education as a strategy for reducing crime.[@lochner2020education]
+
+Finally, the article "The Mental Health of Crime Victims: Impact of Legal Intervention" by Rosemary Gartner and Bill McCarthy examines the impact of legal intervention on the mental health of crime victims, emphasizing the need for effective interventions that take into account the unique needs and experiences of victims. Together, these articles highlight the importance of incorporating a gendered and intersectional perspective in understanding and addressing the complex issues of crime, victimization, and criminal justice.[@herman2003mental]
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
